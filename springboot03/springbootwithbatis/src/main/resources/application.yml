@@ -1,0 +1,14 @@
+#配置连接池相关的信息,因为springboot并不知道我们的链接地址是哪里
+spring:
+  datasource:
+    url: jdbc:mysql:///dudu
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    type: com.alibaba.druid.pool.DruidDataSource
+mybatis:
+  mapper-locations: classpath:mapping/UserMapper.xml
+  config-location: classpath:mybatis/myabtis.xml
+pagehelper:
+  helper-dialect: mysql
+  params: count=countsql

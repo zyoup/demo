@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring_demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springbootwithbatis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springbootwithbatis02" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springbootwithbatisno" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springbootwithbatisredis" charset="UTF-8" />
+  </component>
+</project>

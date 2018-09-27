@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="gcz" />
+        <module name="spring_demo" />
+        <module name="springbootwithbatis" />
+        <module name="springbootwithbatis (1)" />
+        <module name="springbootwithbatis02" />
+        <module name="springbootwithbatisredis" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
