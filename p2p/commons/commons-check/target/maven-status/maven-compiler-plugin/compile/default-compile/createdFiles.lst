@@ -1,0 +1,5 @@
+com\zyp\commons\check\annotation\CaseCade.class
+com\zyp\commons\check\annotation\CheckAnnotation.class
+com\zyp\commons\check\annotation\LengthValidata.class
+com\zyp\commons\check\annotation\RegValidata.class
+com\zyp\commons\check\annotation\NotNull.class
