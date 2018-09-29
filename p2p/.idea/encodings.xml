@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/codecontroller" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/commons-bean" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/commons-check" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/commons-mq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/commons-swagger2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/commons-utils" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/p2p_usermodule" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/p2p_usermodule/p2p_usercontroller" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/p2p_usermodule/userdao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/p2p_usermodule/userpojo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/p2p_usermodule/userserviceimpl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/p2p_usermodule/userserviceinterface" charset="UTF-8" />
+  </component>
+</project>
