@@ -27,6 +27,10 @@ import java.lang.annotation.Target;
  *　　　　　　　　　　┃┫┫　┃┫┫
  *　　　　　　　　　　┗┻┛　┗┻┛+ + + +
  */
+
+/**
+ * 声明被当前注解修饰的变量属于需要校验变量内部属性的变量
+ */
 @Target(ElementType.FIELD)
 @Retention(RetentionPolicy.RUNTIME)
 public @interface CaseCade {

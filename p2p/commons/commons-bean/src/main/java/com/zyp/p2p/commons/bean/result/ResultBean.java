@@ -1,7 +1,9 @@
 package com.zyp.p2p.commons.bean.result;
 
+import java.beans.PropertyDescriptor;
 import java.io.Serializable;
 import java.lang.reflect.Field;
+import java.lang.reflect.Method;
 
 public class ResultBean implements Serializable {
     private String code;
@@ -40,10 +42,14 @@ public class ResultBean implements Serializable {
             for (Field declaredField : declaredFields) {
                 String name = declaredField.getName();
                 stringBuffer.append(name+"=");
-                Object o = declaredField.get(this);
-                stringBuffer.append(o);
+                Object o = declaredField.get(this);//该方法破坏封装性
+               // PropertyDescriptor propertyDescriptor = new PropertyDescriptor(declaredField.getName(),aClass);
+               // Method readMethod = propertyDescriptor.getReadMethod();
+                //Object o = readMethod.invoke(this, null);
+
+                stringBuffer.append(o+",  ");
             }
-        } catch (IllegalAccessException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
         return stringBuffer.toString();

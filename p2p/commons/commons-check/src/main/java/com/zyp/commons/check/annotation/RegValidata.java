@@ -1,5 +1,7 @@
 package com.zyp.commons.check.annotation;
 
+import com.zyp.p2p.commons.utils.code.ErrorCodeEnmu;
+
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
@@ -41,10 +43,12 @@ import java.lang.annotation.Target;
   *    又看源码，看你妹妹呀！
   */
 
-
+/**
+ * 声明当前注解修饰的变量必须匹配某个正则表达式
+ */
 @Target(ElementType.FIELD)
 @Retention(RetentionPolicy.RUNTIME)
 public @interface RegValidata {
     String value();//正则表达式
-    //String code();//错误码
+    ErrorCodeEnmu name();
 }
