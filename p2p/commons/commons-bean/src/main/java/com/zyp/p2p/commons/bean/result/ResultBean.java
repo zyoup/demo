@@ -34,6 +34,8 @@ public class ResultBean implements Serializable {
         this.data = data;
     }
 
+
+
     public String toString(){
         Class<? extends ResultBean> aClass = this.getClass();
         Field[] declaredFields = aClass.getDeclaredFields();
@@ -52,6 +54,13 @@ public class ResultBean implements Serializable {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return stringBuffer.toString();
+        System.out.println(stringBuffer.toString());
+        System.out.println("==================================");
+        return "ResultBean{" +
+                    "code='" + code + '\'' +
+                    ", message='" + message + '\'' +
+                    ", data=" + data +
+                    '}';
+
     }
 }

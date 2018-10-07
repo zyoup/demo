@@ -25,9 +25,9 @@ public class SwaggerConfig {
                 .title("在线文档")
                 .description("描述详情")
                 .version("1.00")
-                .contact(new Contact("嘟嘟","www.baidu.com","zyoup1@163.com"))
+                .contact(new Contact("嘟嘟","https://www.baidu.com","zyoup1@163.com"))
                 .license("嘟嘟的协议")
-                .licenseUrl("www.sougou.com")
+                .licenseUrl("https://www.baidu.com")
                 .build();
     }
 }
