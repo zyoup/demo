@@ -1,11 +1,12 @@
 package com.zyp.p2p.user.controller;
 
+import com.alibaba.dubbo.config.annotation.Reference;
 import com.zyp.commons.check.annotation.CheckAnnotation;
 import com.zyp.p2p.commons.bean.result.ResultBean;
 import com.zyp.p2p.commons.redis.utils.RedisClientInterface;
 import com.zyp.p2p.commons.utils.code.ErrorCodeEnmu;
 import com.zyp.p2p.user.pojo.User;
-import com.zyp.p2p.user.userservice.UserService;
+import com.zyp.p2p.user.service.UserService;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
@@ -48,7 +49,8 @@ public class UserController {
     private RedisClientInterface redisClient;
 
     //@Autowired
-    //private UserService userService;
+    @Reference//这个是dubbo的注解,也就是引入注解，需要dubbo扫描才行
+    private UserService userService;
 
     @ApiOperation(value = "用户注册",response = ResultBean.class)
     @ApiImplicitParams({@ApiImplicitParam(name = "name",required = true,value = "用户名",example = "嘟嘟"),
@@ -92,11 +94,11 @@ public class UserController {
             }else if(phoneCodeRedis==null||!phoneCodeRedis.equalsIgnoreCase(phonecode)){
                 resultBean=ResultBean.setError(ErrorCodeEnmu.PHONE_NUM_ERNOTMATCH.getValue(),"手机验证码错误",null);
             }
-//            resultBean=CheckAnnotation.check(user);
-//            if(resultBean.getCode()==null){
-//
-//            }
-            System.out.println(user);
+            resultBean=CheckAnnotation.check(user);
+            if(resultBean.getCode()==null){
+                resultBean = userService.register(user);
+            }
+            //System.out.println(user);
         } catch (Exception e) {
             e.printStackTrace();
         }

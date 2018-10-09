@@ -1,9 +1,9 @@
 server:
-  port: 8082
+  port: 8083
 jedis:
-  host: 127.0.0.1
-  port: 6379
-  password: 123
+  host: 10.9.251.200
+  port: 8100
+  password: redis001
   maxTotal: 1024
   maxIdle: 512
   minIdle: 10

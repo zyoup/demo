@@ -54,32 +54,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CodeControllerStater.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/codecontroller/src/main/java/com/zyp/p2p/code/CodeControllerStater.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/p2p_usermodule/p2p_usercontroller/src/main/java/com/zyp/p2p/user/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="93" column="13" lean-forward="true" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/p2p_usermodule/userpojo/src/main/java/com/zyp/p2p/user/pojo/User.java">
+      <file leaf-file-name="UserServiceConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/p2p_usermodule/userserviceimpl/src/main/java/com/zyp/p2p/user/service/config/UserServiceConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,11 +66,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserControllerStartApp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/p2p_usermodule/p2p_usercontroller/src/main/java/com/zyp/p2p/user/UserControllerStartApp.java">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/p2p_usermodule/p2p_usercontroller/src/main/java/com/zyp/p2p/user/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="51" column="47" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/p2p_usermodule/userserviceimpl/src/main/java/com/zyp/p2p/user/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/p2p_usermodule/userserviceimpl/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/p2p_usermodule/p2p_usercontroller/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1320">
+              <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/p2p_usermodule/userserviceimpl/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserServiceStarter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/p2p_usermodule/userserviceimpl/src/main/java/com/zyp/p2p/user/service/UserServiceStarter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,14 +128,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CodeController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/codecontroller/src/main/java/com/zyp/p2p/code/controller/CodeController.java">
+      <file leaf-file-name="UserControllerStartApp.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/p2p_usermodule/p2p_usercontroller/src/main/java/com/zyp/p2p/user/UserControllerStartApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="70" column="45" lean-forward="true" selection-start-line="70" selection-start-column="45" selection-end-line="70" selection-end-column="45" />
+            <state relative-caret-position="164">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/p2p_usermodule/p2p_usercontroller/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -138,12 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/commons/commons-mq/src/test/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/commons/commons-mq/src/test/java/com/zyp/mqtest/MqTest.java" />
-        <option value="$PROJECT_DIR$/commons/commons-mq/src/test/java/com/zyp/utils/Connectionutil.java" />
-        <option value="$PROJECT_DIR$/commons/commons-mq/src/test/java/com/zyp/demo/Send.java" />
-        <option value="$PROJECT_DIR$/commons/commons-mq/src/test/java/com/zyp/demo/Recver.java" />
-        <option value="$PROJECT_DIR$/p2p_usermodule/userpojo/src/main/resources/abc.properties" />
         <option value="$PROJECT_DIR$/p2p_usermodule/userpojo/src/main/java/com/zyp/springboot/user/pojo/User.java" />
         <option value="$PROJECT_DIR$/p2p_usermodule/userpojo/src/main/java/com/zyp/springboot/user/pojo/com/zyp/springboot/user/service/UserService.java" />
         <option value="$PROJECT_DIR$/p2p_usermodule/userpojo/src/main/java/service/UserService.java" />
@@ -152,8 +184,6 @@
         <option value="$PROJECT_DIR$/p2p_usermodule/userpojo/src/main/java/com/zyp/springboot/user/controller/UserController.java" />
         <option value="$PROJECT_DIR$/p2p_usermodule/userserviceinterface/src/main/java/com/zyp/p2p/user/userservice/UserService.java" />
         <option value="$PROJECT_DIR$/p2p_usermodule/userserviceinterface/pom.xml" />
-        <option value="$PROJECT_DIR$/p2p_usermodule/userserviceimpl/pom.xml" />
-        <option value="$PROJECT_DIR$/p2p_usermodule/userserviceimpl/src/main/java/com/zyp/p2p/user/uservice/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/commons/commons-mq/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/p2p_usermodule/pom.xml" />
@@ -170,7 +200,6 @@
         <option value="$PROJECT_DIR$/commons/commons-check/src/test/java/com/zyp/p2p/commons/TestDemo.java" />
         <option value="$PROJECT_DIR$/codecontroller/src/main/java/zom/zyp/p2p/code/CodeControllerStater.java" />
         <option value="$PROJECT_DIR$/codecontroller/src/main/java/com/zyp/p2p/code/CodeControllerStater.java" />
-        <option value="$PROJECT_DIR$/p2p_usermodule/p2p_usercontroller/src/main/java/com/zyp/p2p/user/UserControllerStartApp.java" />
         <option value="$PROJECT_DIR$/commons/commons-swagger2/src/main/java/com/zyp/p2p/commons/swagger2/config/SwaggerConfig.java" />
         <option value="$PROJECT_DIR$/p2p_usermodule/p2p_usercontroller/src/main/resources/haha.md" />
         <option value="$PROJECT_DIR$/commons/commons-redis/pom.xml" />
@@ -178,17 +207,26 @@
         <option value="$PROJECT_DIR$/commons/commons-redis/src/main/java/com/zyp/p2p/commons/redis/utils/SkipRedis.java" />
         <option value="$PROJECT_DIR$/p2p_usermodule/userpojo/src/main/java/com/zyp/p2p/user/pojo/User.java" />
         <option value="$PROJECT_DIR$/codecontroller/pom.xml" />
-        <option value="$PROJECT_DIR$/codecontroller/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/commons/commons-redis/src/main/java/com/zyp/p2p/commons/redis/utils/RedisConfig.java" />
         <option value="$PROJECT_DIR$/commons/commons-redis/src/main/java/com/zyp/p2p/commons/redis/utils/RedisClientInterface.java" />
         <option value="$PROJECT_DIR$/commons/commons-redis/src/main/java/com/zyp/p2p/commons/redis/utils/RedisClient.java" />
         <option value="$PROJECT_DIR$/commons/commons-utils/src/main/java/com/zyp/p2p/commons/utils/code/ErrorCodeEnmu.java" />
-        <option value="$PROJECT_DIR$/p2p_usermodule/p2p_usercontroller/pom.xml" />
-        <option value="$PROJECT_DIR$/p2p_usermodule/p2p_usercontroller/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/commons/commons-bean/pom.xml" />
         <option value="$PROJECT_DIR$/commons/commons-bean/src/main/java/com/zyp/p2p/commons/bean/result/ResultBean.java" />
         <option value="$PROJECT_DIR$/codecontroller/src/main/java/com/zyp/p2p/code/controller/CodeController.java" />
+        <option value="$PROJECT_DIR$/codecontroller/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/p2p_usermodule/p2p_usercontroller/src/main/java/com/zyp/p2p/user/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/p2p_usermodule/userserviceimpl/src/main/java/com/zyp/p2p/user/uservice/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/p2p_usermodule/userserviceimpl/src/main/java/com/zyp/p2p/user/uservice/impl/UserServiceConfig.java" />
+        <option value="$PROJECT_DIR$/p2p_usermodule/userserviceimpl/src/main/java/com/zyp/p2p/user/uservice/config/UserServiceConfig.java" />
+        <option value="$PROJECT_DIR$/p2p_usermodule/userserviceimpl/src/main/java/com/zyp/p2p/user/uservice/UserServiceStarter.java" />
+        <option value="$PROJECT_DIR$/p2p_usermodule/userserviceimpl/src/main/java/com/zyp/p2p/user/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/p2p_usermodule/userserviceimpl/pom.xml" />
+        <option value="$PROJECT_DIR$/p2p_usermodule/p2p_usercontroller/pom.xml" />
+        <option value="$PROJECT_DIR$/p2p_usermodule/p2p_usercontroller/src/main/java/com/zyp/p2p/user/UserControllerStartApp.java" />
+        <option value="$PROJECT_DIR$/p2p_usermodule/p2p_usercontroller/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/p2p_usermodule/userserviceimpl/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/p2p_usermodule/userserviceimpl/src/main/java/com/zyp/p2p/user/service/config/UserServiceConfig.java" />
       </list>
     </option>
   </component>
@@ -214,9 +252,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="297" />
-    <option name="y" value="17" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="424" />
+    <option name="y" value="30" />
     <option name="width" value="828" />
     <option name="height" value="686" />
   </component>
@@ -225,6 +263,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -235,52 +275,64 @@
             <path>
               <item name="p2p" type="b2602c69:ProjectViewProjectNode" />
               <item name="p2p" type="462c0819:PsiDirectoryNode" />
-              <item name="codecontroller" type="462c0819:PsiDirectoryNode" />
+              <item name="p2p_usermodule" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="p2p" type="b2602c69:ProjectViewProjectNode" />
               <item name="p2p" type="462c0819:PsiDirectoryNode" />
-              <item name="codecontroller" type="462c0819:PsiDirectoryNode" />
+              <item name="p2p_usermodule" type="462c0819:PsiDirectoryNode" />
+              <item name="p2p_usercontroller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="p2p" type="b2602c69:ProjectViewProjectNode" />
+              <item name="p2p" type="462c0819:PsiDirectoryNode" />
+              <item name="p2p_usermodule" type="462c0819:PsiDirectoryNode" />
+              <item name="p2p_usercontroller" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="p2p" type="b2602c69:ProjectViewProjectNode" />
               <item name="p2p" type="462c0819:PsiDirectoryNode" />
-              <item name="codecontroller" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="p2p" type="b2602c69:ProjectViewProjectNode" />
-              <item name="p2p" type="462c0819:PsiDirectoryNode" />
-              <item name="codecontroller" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="p2p" type="b2602c69:ProjectViewProjectNode" />
-              <item name="p2p" type="462c0819:PsiDirectoryNode" />
-              <item name="codecontroller" type="462c0819:PsiDirectoryNode" />
+              <item name="p2p_usermodule" type="462c0819:PsiDirectoryNode" />
+              <item name="p2p_usercontroller" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="p2p" type="b2602c69:ProjectViewProjectNode" />
               <item name="p2p" type="462c0819:PsiDirectoryNode" />
-              <item name="codecontroller" type="462c0819:PsiDirectoryNode" />
+              <item name="p2p_usermodule" type="462c0819:PsiDirectoryNode" />
+              <item name="p2p_usercontroller" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="p2p" type="b2602c69:ProjectViewProjectNode" />
+              <item name="p2p" type="462c0819:PsiDirectoryNode" />
+              <item name="p2p_usermodule" type="462c0819:PsiDirectoryNode" />
+              <item name="p2p_usercontroller" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="p2p" type="b2602c69:ProjectViewProjectNode" />
+              <item name="p2p" type="462c0819:PsiDirectoryNode" />
+              <item name="p2p_usermodule" type="462c0819:PsiDirectoryNode" />
+              <item name="p2p_usercontroller" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="p2p" type="b2602c69:ProjectViewProjectNode" />
               <item name="p2p" type="462c0819:PsiDirectoryNode" />
-              <item name="codecontroller" type="462c0819:PsiDirectoryNode" />
+              <item name="p2p_usermodule" type="462c0819:PsiDirectoryNode" />
+              <item name="p2p_usercontroller" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -289,25 +341,20 @@
               <item name="p2p" type="b2602c69:ProjectViewProjectNode" />
               <item name="p2p" type="462c0819:PsiDirectoryNode" />
               <item name="p2p_usermodule" type="462c0819:PsiDirectoryNode" />
+              <item name="userserviceimpl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="p2p" type="b2602c69:ProjectViewProjectNode" />
               <item name="p2p" type="462c0819:PsiDirectoryNode" />
               <item name="p2p_usermodule" type="462c0819:PsiDirectoryNode" />
-              <item name="p2p_usercontroller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="p2p" type="b2602c69:ProjectViewProjectNode" />
-              <item name="p2p" type="462c0819:PsiDirectoryNode" />
-              <item name="p2p_usermodule" type="462c0819:PsiDirectoryNode" />
-              <item name="p2p_usercontroller" type="462c0819:PsiDirectoryNode" />
+              <item name="userserviceimpl" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="p2p" type="b2602c69:ProjectViewProjectNode" />
               <item name="p2p" type="462c0819:PsiDirectoryNode" />
               <item name="p2p_usermodule" type="462c0819:PsiDirectoryNode" />
-              <item name="p2p_usercontroller" type="462c0819:PsiDirectoryNode" />
+              <item name="userserviceimpl" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -315,7 +362,7 @@
               <item name="p2p" type="b2602c69:ProjectViewProjectNode" />
               <item name="p2p" type="462c0819:PsiDirectoryNode" />
               <item name="p2p_usermodule" type="462c0819:PsiDirectoryNode" />
-              <item name="p2p_usercontroller" type="462c0819:PsiDirectoryNode" />
+              <item name="userserviceimpl" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -324,41 +371,50 @@
               <item name="p2p" type="b2602c69:ProjectViewProjectNode" />
               <item name="p2p" type="462c0819:PsiDirectoryNode" />
               <item name="p2p_usermodule" type="462c0819:PsiDirectoryNode" />
-              <item name="p2p_usercontroller" type="462c0819:PsiDirectoryNode" />
+              <item name="userserviceimpl" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="p2p" type="b2602c69:ProjectViewProjectNode" />
               <item name="p2p" type="462c0819:PsiDirectoryNode" />
               <item name="p2p_usermodule" type="462c0819:PsiDirectoryNode" />
-              <item name="p2p_usercontroller" type="462c0819:PsiDirectoryNode" />
+              <item name="userserviceimpl" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="p2p" type="b2602c69:ProjectViewProjectNode" />
               <item name="p2p" type="462c0819:PsiDirectoryNode" />
               <item name="p2p_usermodule" type="462c0819:PsiDirectoryNode" />
-              <item name="userpojo" type="462c0819:PsiDirectoryNode" />
+              <item name="userserviceimpl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="p2p" type="b2602c69:ProjectViewProjectNode" />
               <item name="p2p" type="462c0819:PsiDirectoryNode" />
               <item name="p2p_usermodule" type="462c0819:PsiDirectoryNode" />
-              <item name="userpojo" type="462c0819:PsiDirectoryNode" />
+              <item name="userserviceinterface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="p2p" type="b2602c69:ProjectViewProjectNode" />
+              <item name="p2p" type="462c0819:PsiDirectoryNode" />
+              <item name="p2p_usermodule" type="462c0819:PsiDirectoryNode" />
+              <item name="userserviceinterface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="p2p" type="b2602c69:ProjectViewProjectNode" />
               <item name="p2p" type="462c0819:PsiDirectoryNode" />
               <item name="p2p_usermodule" type="462c0819:PsiDirectoryNode" />
-              <item name="userpojo" type="462c0819:PsiDirectoryNode" />
+              <item name="userserviceinterface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -366,7 +422,7 @@
               <item name="p2p" type="b2602c69:ProjectViewProjectNode" />
               <item name="p2p" type="462c0819:PsiDirectoryNode" />
               <item name="p2p_usermodule" type="462c0819:PsiDirectoryNode" />
-              <item name="userpojo" type="462c0819:PsiDirectoryNode" />
+              <item name="userserviceinterface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -375,19 +431,17 @@
               <item name="p2p" type="b2602c69:ProjectViewProjectNode" />
               <item name="p2p" type="462c0819:PsiDirectoryNode" />
               <item name="p2p_usermodule" type="462c0819:PsiDirectoryNode" />
-              <item name="userpojo" type="462c0819:PsiDirectoryNode" />
+              <item name="userserviceinterface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -401,13 +455,18 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../p2p_pro" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dubbodemo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.postfix.templates" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Idea_work\p2p\commons\commons-bean\src\main\java" />
+      <recent name="F:\Idea_work\p2p" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.zyp.p2p.user.uservice.config" />
       <recent name="com.zyp.p2p.user" />
       <recent name="zom.zyp.p2p.code" />
       <recent name="" />
@@ -415,10 +474,6 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Idea_work\p2p\p2p_usermodule\p2p_usercontroller\src\main\resources" />
       <recent name="F:\Idea_work\p2p\commons\commons-mq\src\test" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\Idea_work\p2p\commons\commons-bean\src\main\java" />
-      <recent name="F:\Idea_work\p2p" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -441,17 +496,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="zom.zyp.p2p.code.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Send" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zyp.demo.Send" />
-      <module name="commonsmq" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zyp.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -506,6 +550,16 @@
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zyp.p2p.user.UserControllerStartApp" />
     </configuration>
+    <configuration name="UserServiceStarter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="userserviceimpl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zyp.p2p.user.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zyp.p2p.user.service.UserServiceStarter" />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -529,19 +583,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Send" />
       <item itemvalue="Application.CodeControllerStater" />
       <item itemvalue="Application.TestDemo" />
       <item itemvalue="Spring Boot.UserControllerStartApp" />
       <item itemvalue="Spring Boot.CodeControllerStater" />
+      <item itemvalue="Spring Boot.UserServiceStarter" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.UserControllerStartApp" />
+        <item itemvalue="Spring Boot.UserServiceStarter" />
         <item itemvalue="Spring Boot.CodeControllerStater" />
         <item itemvalue="Application.TestDemo" />
         <item itemvalue="Application.CodeControllerStater" />
-        <item itemvalue="Application.Send" />
       </list>
     </recent_temporary>
   </component>
@@ -584,11 +638,16 @@
       <workItem from="1538991741824" duration="188000" />
       <workItem from="1539000129296" duration="12406000" />
       <workItem from="1539045395650" duration="1530000" />
+      <workItem from="1539073388875" duration="3197000" />
+      <workItem from="1539087540622" duration="5772000" />
+      <workItem from="1539093924747" duration="506000" />
+      <workItem from="1539094691181" duration="818000" />
+      <workItem from="1539095622162" duration="198000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124135000" />
+    <option name="totallyTimeSpent" value="134626000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -600,7 +659,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="424" y="30" width="828" height="686" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -620,10 +679,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="1.0" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37117118" />
       <window_info anchor="bottom" id="Spring" order="15" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.295764" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32421875" />
       <window_info anchor="bottom" id="Problems" order="12" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.32916668" />
       <window_info id="Web" order="6" side_tool="true" />
@@ -643,7 +702,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Spring" order="15" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.3288889" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31284916" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3360522" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -662,8 +721,8 @@
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="right" id="Maven Projects" order="10" weight="0.32885906" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22650602" />
+      <window_info anchor="right" id="Maven Projects" order="10" weight="0.32818183" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17473525" />
       <window_info anchor="right" id="Database" order="4" weight="0.3290469" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Web" order="6" side_tool="true" />
@@ -673,7 +732,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.32916668" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39851025" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36052203" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -684,49 +743,18 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/p2p_usermodule/p2p_usercontroller/src/main/java/com/zyp/p2p/user/controller/UserController.java</url>
-          <line>73</line>
-          <properties />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/p2p_usermodule/p2p_usercontroller/src/main/java/com/zyp/p2p/user/controller/UserController.java</url>
-          <line>70</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/p2p_usermodule/p2p_usercontroller/src/main/java/com/zyp/p2p/user/controller/UserController.java</url>
-          <line>68</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="13" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/p2p_usermodule/userpojo/src/main/java/com/zyp/springboot/user/service/UserService.java" />
-    <entry file="file://$PROJECT_DIR$/p2p_usermodule/userpojo/src/main/java/com/zyp/springboot/user/pojo/User.java" />
-    <entry file="file://$PROJECT_DIR$/p2p_usermodule/userpojo/src/main/java/com/zyp/springboot/user/controller/UserController.java" />
     <entry file="file://$PROJECT_DIR$/p2p_usermodule/userpojo/src/main/resources/abc.properties" />
-    <entry file="file://$PROJECT_DIR$/p2p_usermodule/userserviceimpl/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/p2p_usermodule/userserviceinterface/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final-sources.jar!/javax/validation/ConstraintViolation.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -744,12 +772,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/commons/commons-mq/src/test/java/com/zyp/utils/Connectionutil.java" />
     <entry file="file://$PROJECT_DIR$/commons/commons-mq/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
           <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/zyp/yzm/ValidateCode/1.0/ValidateCode-1.0.jar!/cn/dsna/util/images/ValidateCode.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -766,12 +794,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/plugins/Docket.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -781,20 +809,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/commons/commons-swagger2/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/commons/commons-check/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
           <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/commons/commons-check/src/main/java/com/zyp/commons/check/annotation/NotNull.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -846,29 +874,22 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/commons/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/p2p_usermodule/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/p2p_usermodule/userserviceimpl/src/main/java/com/zyp/p2p/user/uservice/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/p2p_usermodule/userserviceinterface/src/main/java/com/zyp/p2p/user/userservice/UserService.java">
+    <entry file="file://$PROJECT_DIR$/p2p_usermodule/userserviceinterface/src/main/java/com/zyp/p2p/user/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
@@ -879,9 +900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
           <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -910,20 +928,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/commons/commons-redis/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
           <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/p2p_usermodule/userpojo/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
           <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/commons/commons-redis/src/main/java/com/zyp/p2p/commons/redis/utils/SkipRedis.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -933,34 +951,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/codecontroller/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
           <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commons/commons-redis/src/main/java/com/zyp/p2p/commons/redis/utils/RedisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="968">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commons/commons-redis/src/main/java/com/zyp/p2p/commons/redis/utils/RedisClientInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="52" column="34" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commons/commons-redis/src/main/java/com/zyp/p2p/commons/redis/utils/RedisClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1788">
-          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
         </state>
       </provider>
     </entry>
@@ -968,20 +962,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="32" column="36" lean-forward="true" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/p2p_usermodule/p2p_usercontroller/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codecontroller/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -993,12 +973,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/commons/commons-bean/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
           <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/commons/commons-check/src/main/java/com/zyp/commons/check/annotation/CheckAnnotation.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1014,55 +994,126 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/p2p_usermodule/p2p_usercontroller/pom.xml">
+    <entry file="file://$PROJECT_DIR$/codecontroller/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="51" column="20" lean-forward="true" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+        <state relative-caret-position="110">
+          <caret line="5" column="20" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="5" selection-end-column="20" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/p2p_usermodule/userpojo/src/main/java/com/zyp/p2p/user/pojo/User.java">
+    <entry file="file://$PROJECT_DIR$/commons/commons-redis/src/main/java/com/zyp/p2p/commons/redis/utils/RedisClientInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="156">
+          <caret line="52" column="34" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/commons-redis/src/main/java/com/zyp/p2p/commons/redis/utils/RedisClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1364">
+          <caret line="71" column="29" lean-forward="true" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/codecontroller/src/main/java/com/zyp/p2p/code/CodeControllerStater.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        <state relative-caret-position="132">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/p2p_usermodule/p2p_usercontroller/src/main/java/com/zyp/p2p/user/UserControllerStartApp.java">
+    <entry file="file://$PROJECT_DIR$/p2p_usermodule/userpojo/src/main/java/com/zyp/p2p/user/pojo/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="22">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/commons-redis/src/main/java/com/zyp/p2p/commons/redis/utils/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-286">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/codecontroller/src/main/java/com/zyp/p2p/code/controller/CodeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="70" column="45" lean-forward="true" selection-start-line="70" selection-start-column="45" selection-end-line="70" selection-end-column="45" />
+        <state relative-caret-position="-1052">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p2p_usermodule/userserviceimpl/src/main/java/com/zyp/p2p/user/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p2p_usermodule/userserviceimpl/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p2p_usermodule/p2p_usercontroller/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p2p_usermodule/p2p_usercontroller/src/main/java/com/zyp/p2p/user/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="51" column="47" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/p2p_usermodule/p2p_usercontroller/src/main/java/com/zyp/p2p/user/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/p2p_usermodule/p2p_usercontroller/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="93" column="13" lean-forward="true" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
+        <state relative-caret-position="22">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p2p_usermodule/userserviceimpl/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p2p_usermodule/userserviceimpl/src/main/java/com/zyp/p2p/user/service/config/UserServiceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p2p_usermodule/userserviceimpl/src/main/java/com/zyp/p2p/user/service/UserServiceStarter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p2p_usermodule/p2p_usercontroller/src/main/java/com/zyp/p2p/user/UserControllerStartApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
