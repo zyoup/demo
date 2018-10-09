@@ -1,0 +1,4 @@
+com\zyp\p2p\commons\redis\utils\RedisClient.class
+com\zyp\p2p\commons\redis\utils\RedisClientInterface.class
+com\zyp\p2p\commons\redis\utils\RedisConfig.class
+com\zyp\p2p\commons\redis\utils\SkipRedis.class

@@ -10,6 +10,7 @@
         <module name="commonsbean" />
         <module name="commonscheck" />
         <module name="commonsmq" />
+        <module name="commonsredis" />
         <module name="commonsswagger2" />
         <module name="commonsutils" />
         <module name="p2p_usercontroller" />

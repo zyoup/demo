@@ -1,0 +1,10 @@
+server:
+  port: 8083
+jedis:
+  host: 127.0.0.1
+  port: 6379
+  password: 123
+  maxTotal: 1024
+  maxIdle: 512
+  minIdle: 10
+  maxTime: 10000

@@ -1,5 +1,7 @@
 package com.zyp.p2p.commons.bean.result;
 
+import com.zyp.p2p.commons.utils.code.ErrorCodeEnmu;
+
 import java.beans.PropertyDescriptor;
 import java.io.Serializable;
 import java.lang.reflect.Field;
@@ -34,7 +36,28 @@ public class ResultBean implements Serializable {
         this.data = data;
     }
 
+    public static ResultBean setError(Object data){
+        ResultBean resultBean = new ResultBean();
+        resultBean.setData(data);
+        resultBean.setCode(ErrorCodeEnmu.UNKNOWN_ERROR.getValue());
+        resultBean.setMessage("错误");
+        return resultBean;
+    }
+    public static ResultBean setError(String code,String message,Object data){
+        ResultBean resultBean = new ResultBean();
+        resultBean.setData(data);
+        resultBean.setCode(code);
+        resultBean.setMessage(message);
+        return resultBean;
+    }
 
+    public static ResultBean setOk(Object data){
+        ResultBean resultBean = new ResultBean();
+        resultBean.setData(data);
+        resultBean.setCode(ErrorCodeEnmu.SUCCESS.getValue());
+        resultBean.setMessage("成功");
+        return resultBean;
+    }
 
     public String toString(){
         Class<? extends ResultBean> aClass = this.getClass();

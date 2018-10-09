@@ -4,12 +4,14 @@ package com.zyp.p2p.user.pojo;
 
 import com.zyp.commons.check.annotation.NotNull;
 import com.zyp.commons.check.annotation.RegValidata;
+import com.zyp.p2p.commons.redis.utils.SkipRedis;
 
 import java.io.Serializable;
 
 public class User implements Serializable {
     private String id;//主键
     private String name;//用户名
+    @SkipRedis
     private String password;//密码
     private String passwordSalt;//密码的盐
     private int userId;//用户ID

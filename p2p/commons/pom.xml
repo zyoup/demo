@@ -18,6 +18,7 @@
         <module>commons-swagger2</module>
         <module>commons-utils</module>
         <module>commons-mq</module>
+        <module>commons-redis</module>
     </modules>
 
 
