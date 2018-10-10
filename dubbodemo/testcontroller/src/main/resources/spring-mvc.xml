@@ -15,7 +15,7 @@
     <dubbo:application name="xiaofeizhe_lala"></dubbo:application>
     <dubbo:registry address="zookeeper://10.9.251.200:8091"></dubbo:registry>
     <!-- 引用服务 -->
-    <dubbo:reference interface="com.zyp.test.dubbo.service.TestService" id="testService"></dubbo:reference>
+    <dubbo:reference interface="com.zyp.test.dubbo.service.TestService" id="testService" check="false" retries="2" version="1.0"></dubbo:reference>
 
     
     

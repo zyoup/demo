@@ -16,10 +16,12 @@
 <context:component-scan base-package="com.zyp.test.dubbo.service"></context:component-scan>
 
     <dubbo:application name="tigongzhe_dudu"></dubbo:application>
-    <dubbo:registry address="zookeeper://10.9.251.200:8091"></dubbo:registry>
+    <dubbo:registry id="aaa" address="zookeeper://10.9.251.200:8091"></dubbo:registry>
+    <dubbo:registry id="bbc" address="zookeeper://10.9.251.200:8091" default="false"></dubbo:registry>
     <!-- port必须不能配其他程序占用，如果你在写测试代码时，一个机器跑了多个Tomcat，注意修改这个端口 -->
     <dubbo:protocol name="dubbo" port="12345"></dubbo:protocol>
-    <dubbo:service interface="com.zyp.test.dubbo.service.TestService" ref="TestServiceImpl" timeout="6000"></dubbo:service>
+    <dubbo:service interface="com.zyp.test.dubbo.service.TestService" ref="TestServiceImpl" timeout="6000" registry="aaa" version="1.0"></dubbo:service>
+    <dubbo:service interface="com.zyp.test.dubbo.service.TestService" ref="TestServiceImpl" timeout="6000" registry="bbc"></dubbo:service>
 
 
 
