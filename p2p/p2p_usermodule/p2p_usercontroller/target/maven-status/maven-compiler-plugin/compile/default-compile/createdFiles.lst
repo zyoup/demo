@@ -1,2 +1,3 @@
 com\zyp\p2p\user\UserControllerStartApp.class
+com\zyp\p2p\user\UserControllerInit.class
 com\zyp\p2p\user\controller\UserController.class
