@@ -1,2 +1,0 @@
-127.0.0.1 - - [09/Oct/2018:19:49:52 +0800] "GET /test.action?name=kk HTTP/1.1" 200 17 http-bio-8184-exec-1 3996
-127.0.0.1 - - [09/Oct/2018:19:49:52 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8184-exec-2 17
