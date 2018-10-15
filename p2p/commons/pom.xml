@@ -19,6 +19,7 @@
         <module>commons-utils</module>
         <module>commons-mq</module>
         <module>commons-redis</module>
+        <module>commons-shiro</module>
     </modules>
 
 

@@ -4,7 +4,9 @@ import com.alibaba.dubbo.config.annotation.Reference;
 import com.zyp.commons.check.annotation.CheckAnnotation;
 import com.zyp.p2p.commons.bean.result.ResultBean;
 import com.zyp.p2p.commons.redis.utils.RedisClientInterface;
+import com.zyp.p2p.commons.shiro.untils.MD5Util;
 import com.zyp.p2p.commons.utils.code.ErrorCodeEnmu;
+import com.zyp.p2p.commons.utils.code.StringUtils;
 import com.zyp.p2p.user.pojo.User;
 import com.zyp.p2p.user.service.UserService;
 import io.swagger.annotations.ApiImplicitParam;
@@ -96,6 +98,10 @@ public class UserController {
             }
             resultBean=CheckAnnotation.check(user);
             if(resultBean.getCode()==null){
+                //正常来说当前操作应该在service中
+                String salt = StringUtils.getRandomString(8);
+                user.setPasswordSalt(salt);
+                user.setPassword(MD5Util.getMD5(user.getPassword(),salt,1024));//替换密码为MD5值
                 resultBean = userService.register(user);
             }
             //System.out.println(user);

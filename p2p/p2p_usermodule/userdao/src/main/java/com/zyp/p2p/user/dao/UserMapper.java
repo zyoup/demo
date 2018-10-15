@@ -7,7 +7,7 @@ import org.apache.ibatis.annotations.Update;
 
 public interface UserMapper {
 
-    @Insert("insert into member_user (name,password,passwordSalt,userTypeId,phone,createAt) values (#name,#password,#passwordSalt,#userId,#phone,#creatData)")
+    @Insert("insert into member_user (name,password,passwordSalt,userTypeId,phone,createAt) values (#{name},#{password},#{passwordSalt},#{userId},#{phone},#{creatData})")
     void insertUser(User user);
 
 //    @Update("update XXX set name =#abc and password=#123")

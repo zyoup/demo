@@ -8,6 +8,7 @@
     <file url="file://$PROJECT_DIR$/commons/commons-check" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/commons/commons-mq" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/commons/commons-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/commons-shiro" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/commons/commons-swagger2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/commons/commons-utils" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/p2p_usermodule" charset="UTF-8" />
@@ -16,5 +17,6 @@
     <file url="file://$PROJECT_DIR$/p2p_usermodule/userpojo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/p2p_usermodule/userserviceimpl" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/p2p_usermodule/userserviceinterface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/weixinpay" charset="UTF-8" />
   </component>
 </project>

@@ -1,6 +1,7 @@
 package com.zyp.p2p.user;
 
 import com.alibaba.dubbo.config.ApplicationConfig;
+import com.alibaba.dubbo.config.ConsumerConfig;
 import com.alibaba.dubbo.config.RegistryConfig;
 import com.alibaba.dubbo.config.spring.context.annotation.DubboComponentScan;
 import org.springframework.boot.SpringApplication;
@@ -21,14 +22,24 @@ public class UserControllerStartApp {
         return applicationConfig;
     }
 
+//    @Bean
+//    public ConsumerConfig consumerConfig(){
+//        ConsumerConfig consumerConfig = new ConsumerConfig();
+//        consumerConfig.setTimeout(10000);
+//        return consumerConfig();
+//    }
+
     @Bean
     public RegistryConfig registryConfig(){
         RegistryConfig registryConfig = new RegistryConfig();
 //        registryConfig.setAddress("10.9.251.200:8091");
 //        registryConfig.setProtocol("zookeeper");
         //上面两行等于以下写法
-        registryConfig.setAddress("zookeeper://10.9.251.200:8091");
+        //registryConfig.setAddress("zookeeper://10.9.251.200:8091");
+        registryConfig.setAddress("zookeeper://127.0.0.1:2181");
         return registryConfig;
     }
+
+
 
 }

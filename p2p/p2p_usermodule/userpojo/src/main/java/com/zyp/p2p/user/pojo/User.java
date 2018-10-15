@@ -7,6 +7,7 @@ import com.zyp.commons.check.annotation.RegValidata;
 import com.zyp.p2p.commons.redis.utils.SkipRedis;
 
 import java.io.Serializable;
+import java.util.Date;
 
 public class User implements Serializable {
     private String id;//主键
@@ -16,7 +17,7 @@ public class User implements Serializable {
     private String passwordSalt;//密码的盐
     private int userId;//用户ID
     private String phone;//手机号
-    private String creatData;//创建日期
+    private Date creatData;//创建日期
 
     public String getId() {
         return id;
@@ -66,11 +67,11 @@ public class User implements Serializable {
         this.phone = phone;
     }
 
-    public String getCreatData() {
+    public Date getCreatData() {
         return creatData;
     }
 
-    public void setCreatData(String creatData) {
+    public void setCreatData(Date creatData) {
         this.creatData = creatData;
     }
 

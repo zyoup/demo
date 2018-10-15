@@ -12,6 +12,7 @@
         <module>p2p_usermodule</module>
         <module>commons</module>
         <module>codecontroller</module>
+        <module>weixinpay</module>
     </modules>
     <!-- 这个属性会将此pom文件下的所有子模块声明为是springboot项目 -->
     <parent>
