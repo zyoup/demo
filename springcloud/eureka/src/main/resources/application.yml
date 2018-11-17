@@ -1,0 +1,16 @@
+server:
+  port: 10001
+#因为当前的eureka是单机的，所以我们要做一些配置
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    serviceUrl:
+      #defaultZone: http://localhost:10000/eureka
+      defaultZone: http://user:123@localhost:10001/eureka
+security:
+  basic:
+    enabled: true #开启安全配置，也就是需要密码，如果不需要设置为false即可，这个参数必须放在application.yml中，不允许放在bootstarp.yml
+  user:
+    name: user
+    password: 123 #在配置了用户名和密码后，我们可以修改地址风格为curl风格
