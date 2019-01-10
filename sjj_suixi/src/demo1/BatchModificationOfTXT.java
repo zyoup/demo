@@ -1,4 +1,4 @@
-package demo;
+package demo1;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -16,7 +16,7 @@ public class BatchModificationOfTXT {
 		String new_name="";//新建文件名
 		String projectName="";//项目名称
 		String organizationName="";//单位名称
-		String year="2017";//年份
+		String year="2018";//年份
 		String month="";//月份
 		String batch ="";//批次
 		String remarks ="";//备注
@@ -24,13 +24,13 @@ public class BatchModificationOfTXT {
 
 //		String folderName="";//文件夹名称
 		
-		String path="C:\\Users\\hp\\Desktop\\test";//测试源文件夹路径
-		String new_path="C:\\Users\\hp\\Desktop\\test2";//测试目标文件夹路径
+//		String path="C:\\Users\\hp\\Desktop\\test";//测试源文件夹路径
+//		String new_path="C:\\Users\\hp\\Desktop\\test2";//测试目标文件夹路径
 		
-//		String path="G:\\濉溪县2017年度和2018年度所有发放批次明细\\2017年度所有批次明细";//2017源文件夹路径
-//		String new_path="G:\\濉溪县项目（程序）";//2017目标文件夹路径
-//		String path="G:\\濉溪县2017年度和2018年度所有发放批次明细\\2018年度所有批次明细，截止到2018.12.18日";//2018源文件夹路径
-//		String new_path="G:\\濉溪县项目（程序）";//2018目标文件夹路径
+//		String path="H:\\濉溪县2017年度和2018年度所有发放批次明细\\2017年度所有批次明细";//2017源文件夹路径
+//		String new_path="H:\\濉溪县项目（程序）\\2017";//2017目标文件夹路径
+		String path="H:\\濉溪县2017年度和2018年度所有发放批次明细\\2018年度所有批次明细，截止到2018.12.18日";//2018源文件夹路径
+		String new_path="H:\\濉溪县项目（程序）\\2018";//2018目标文件夹路径
 		File file = new File(path);
 		ArrayList<String> fileNameList = new ArrayList<>();//以String存储文件名
 		getFileName(file,fileNameList);
@@ -43,26 +43,48 @@ public class BatchModificationOfTXT {
 			int num=0;//对"_"计数
 			for (String splitName : split) {
 				if(num==2) {
-					System.out.println(splitName.substring(1, 3));
-					System.out.println(splitName.substring(4, 5));
-					System.out.println("月份".equals(splitName.substring(1, 3)));
-					System.out.println();
-					if("月".equals(splitName.substring(1, 2)) && "批".equals(splitName.substring(3, 4))) {
-						month = splitName.substring(0, 1);
-						batch=splitName.substring(2, 3);
-						remarks=splitName.substring(5);
-					}else if(!"月".equals(splitName.substring(1, 2)) && "批".equals(splitName.substring(4, 5))) {
-						month = splitName.substring(0, 2);
-						batch=splitName.substring(3, 4);
-						remarks=splitName.substring(6);
-					}else if("月".equals(splitName.substring(1, 2)) && !"批".equals(splitName.substring(3, 4))) {
-						month = splitName.substring(0, 1);
-						batch=splitName.substring(2, 4);
-						remarks=splitName.substring(6);
+					/*
+					 * 在月份中有所给文档名有“月”和“月份”
+					 * 处理获取月份
+					 */
+					if("月份".equals(splitName.substring(1, 3)) ||"月份".equals(splitName.substring(2, 4))) {
+						//月份
+						if("月份".equals(splitName.substring(1, 3)) && "批".equals(splitName.substring(4, 5))) {
+							month = splitName.substring(0, 1);
+							batch=splitName.substring(3, 4);
+							remarks=splitName.substring(6);
+						}else if(!"月份".equals(splitName.substring(1, 3)) && "批".equals(splitName.substring(5, 6))) {
+							month = splitName.substring(0, 2);
+							batch=splitName.substring(4, 5);
+							remarks=splitName.substring(7);
+						}else if("月份".equals(splitName.substring(1, 3)) && !"批".equals(splitName.substring(4, 5))) {
+							month = splitName.substring(0, 1);
+							batch=splitName.substring(3, 5);
+							remarks=splitName.substring(7);
+						}else {
+							month = splitName.substring(0, 2);
+							batch=splitName.substring(4, 6);
+							remarks=splitName.substring(8);
+						}
 					}else {
-						month = splitName.substring(0, 2);
-						batch=splitName.substring(3, 5);
-						remarks=splitName.substring(7);
+						//月
+						if("月".equals(splitName.substring(1, 2)) && "批".equals(splitName.substring(3, 4))) {
+							month = splitName.substring(0, 1);
+							batch=splitName.substring(2, 3);
+							remarks=splitName.substring(5);
+						}else if(!"月".equals(splitName.substring(1, 2)) && "批".equals(splitName.substring(4, 5))) {
+							month = splitName.substring(0, 2);
+							batch=splitName.substring(3, 4);
+							remarks=splitName.substring(6);
+						}else if("月".equals(splitName.substring(1, 2)) && !"批".equals(splitName.substring(3, 4))) {
+							month = splitName.substring(0, 1);
+							batch=splitName.substring(2, 4);
+							remarks=splitName.substring(6);
+						}else {
+							month = splitName.substring(0, 2);
+							batch=splitName.substring(3, 5);
+							remarks=splitName.substring(7);
+						}
 					}
 				}
 				if(num==3) {
